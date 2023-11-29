@@ -2,10 +2,10 @@ body{
   margin: 0px; /*브라우저 왼쪽 상단 모서리부터 출력하기 위해 마진(기본 8px)을 제거 */
 }
 #toplogo {
-  font-family: "Sofia", sans-serif;
-  font-size: 60px;
+  font-family: 'Tilt Prism', sans-serif;
+  font-size: 70px;
   background-color: white;
-  color: white;
+  color: orange;
   width: 100%;
   line-height: 2.0; /* 글자 높이의 2배로 줄간격 설정, 세로방향 정렬을 middle 정렬 */ 
   /*  text-shadow: 2px 2px 4px #000000; */  /* 구글 폰트, 폰트 효과로 주석 처리 */ 
