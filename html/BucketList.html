@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>도상학의 버킷리스트</title>
+  <link rel="stylesheet" href="../css/mystyle.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap">
+  <style>
+  article {
+  float: left;
+  padding: 20px;
+  box-sizing:border-box; 
+         /* 박스모델에서 박스의 크기는 기본적으로 콘텐츠의 크기만 계산(box-sizing:content-box;)
+         아래에서 넓이를 70%로 지정했는데 패딩의 크기가 20px이 있어 실제 크기는 70%를 초과하게 됨
+         box-sizing을 border-box 로 지정하면 **박스 크기 = 콘텐츠 크기+padding크기+border크기의 합**
+         패딩의 크기를 포함한 article 영역의 전체 넓이를 70%로 맞추기 위해 border-box로 지정함 */
+  width: 80%;
+  background-color: seashell;
+  height: 700px; /* only for demonstration, should be removed */
+  }
+  aside {
+  float: left;
+  padding: 20px; 
+  width: 30%;
+  box-sizing: border-box; 
+  background-color: snow;
+  height: 700px; /* only for demonstration, should be removed */
+  }
+  </style>
+  </style>
+</head>
+<body>
+  <div id="toplogo" class="font-Tilt prism"> Do sang hak Homepage </div>
+    
+  <ul> 
+    <li><a class="active" href="https://gkrtkdeh123.github.io/webproject132/">Home</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">목록</a>
+      <div class="dropdown-content" >
+        <a href="./intro.html">간단소개</a>
+        <a href="./hobby.html">취미</a>
+        <a href="./BucketList.html">버킷리스트</a>
+      </div>
+    </li>
+  </ul>
+
+  <article>
+    <h1>나의 버킷리스트 1</h1>
+    <iframe width="500" height="400" 
+    src="https://www.youtube.com/watch?v=HKtvzlSuTn0">
+    </iframe>
+
+    <p>아르헨티나로 여행을 가고 싶습니다. 음식 값이 매우 저렴하나 퀄리티가 좋습니다</p>
+    <p>두번째는 베푸는 것에 인색해지지 않을만큼 여유가 있어지는 것입니다.</p>
+  </article>
+  <aside> 
+    <img src="../image/top.jpg" alt="관련 사이트" style="max-width: 100%;"/>
+    <a href="https://www.youtube.com/watch?v=swJVO9DyTuI">
+      <img src="../image/Argentina.png" alt="아르헨티나" style="max-width: 100%;"/>
+    </a>
+  </aside>
+  <div>
+    <p>감사합니다.</p>
+  </div>
+</body>
+</html>
